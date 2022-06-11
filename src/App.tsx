@@ -1,6 +1,7 @@
 import { Header } from "./components/Header";
 
 import styles from './App.module.css'
+import { Sidebar } from "./components/Sidebar";
 
 export function App() {
   return (
@@ -8,9 +9,7 @@ export function App() {
       <Header />
 
       <div className={styles.wrapper}>
-        <aside>
-          aside
-        </aside>
+        <Sidebar />
 
         <main>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis minus explicabo
