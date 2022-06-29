@@ -1,7 +1,8 @@
-import { Header } from "./components/Header";
+import { Header } from './components/Header';
+import { Sidebar } from './components/Sidebar';
+import { Post } from './components/Post'
 
 import styles from './App.module.css'
-import { Sidebar } from "./components/Sidebar";
 
 export function App() {
   return (
@@ -12,9 +13,8 @@ export function App() {
         <Sidebar />
 
         <main>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis minus explicabo
-          assumenda quo delectus animi ut incidunt autem at mollitia quas, ea modi dignissimos! 
-          Laudantium saepe illo hic sint minus.
+          <Post />
+          <Post />
         </main>
       </div>
     </>
