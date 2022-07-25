@@ -93,3 +93,7 @@
   content: "\2022";
   padding: 0 0.25rem;
 }
+
+.commentBox footer button span {
+  border: none;
+}
